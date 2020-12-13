@@ -1,0 +1,9 @@
+<nav class="homeNav">
+  <ul class="buttonList">
+    <li *ngFor="let page of pages">
+      <a routerLink="/{{page.link}}">
+        <button class="pageButtons appPrimaryButton">{{page.title}}</button>
+      </a>
+    </li>
+  </ul> 
+</nav>
